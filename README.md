@@ -1,16 +1,15 @@
-
     # Rico's Test Run
-    
+
     ## Description
     This is my test run. I hope to solve the problem of wasting precious time
 
     ## Purpose
     The purpose is to make life easier for me as a software developer
-    
+
 
     ## Installation
     step 1 do this, step 2 do that
-    
+
     ## Usage
     undefined
     Why, just look at this video!
@@ -18,7 +17,7 @@
        [three back ticks] md
         ![alt text](assets/images/screenshot.png)
         [three back ticks]
-    
+
     ## Credits
     link##
     ## License
