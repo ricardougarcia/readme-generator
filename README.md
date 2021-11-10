@@ -1,36 +1,26 @@
-    # Here is my title
 
+    # Readme Generator
+    
     ## Description
-    Description goes here!
+    The purpose of this application is to save time by generating a simple README.md file from terminal prompts. 
 
     ## Purpose
-    usage and purpose is added to this section as well
-
+    The use case for this application can be for any README that a user would like to automate
+    
 
     ## Installation
-    Steps
-
+    To use this applciation, I simply need to answer the prompts and make any edits to the final page I see fit. 
+    
     ## Usage
-    https://watch.screencastify.com/v/flPK9T4B9LZRMSWrR2lS
-    Instructions
+    undefined
+    Here is an example link walkthrough video. A gif version can also be found in the assets folder. (https://watch.screencastify.com/v/flPK9T4B9LZRMSWrR2lS)
     To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
        [three back ticks] md
         ![alt text](assets/images/screenshot.png)
         [three back ticks]
-
+    
     ## Credits
-    link here
+    https://github.com/ricardougarcia/readme-generator.git
 
     ## License
     [MIT] 2021
-    ---
-    🏆
-    ## Badges
-    ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-    Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-    ## Features
-    If your project has a lot of features, list them here.
-    ## How to Contribute
-    If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-    ## Tests
-    Go the extra mile and write tests for your application. Then provide examples on how to run them here.
