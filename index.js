@@ -1,11 +1,12 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const inquirer = require("inquirer");
+const renderLicenseSection = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 // const questions =
-inquirer
-  .prompt([
+const start = async () => {
+  const data = await inquirer.prompt([
     {
       type: "input",
       message: "Title?",
@@ -31,7 +32,7 @@ inquirer
     {
       type: "input",
       message: "Instructions and examples of use?",
-      name: "instructions",
+      name: "usage",
     },
     {
       type: "input",
@@ -39,46 +40,54 @@ inquirer
       name: "github",
     },
     {
-      type: "input",
+      type: "list",
       message: "License?",
+      choices: ["MIT", "none"],
       name: "license",
     },
-  ])
+    {
+      type: "input",
+      message: "Email?",
+      name: "email",
+    },
+  ]);
 
   // TODO: Create a function to write README file
   // function writeToFile(fileName, data) {
-  .then((data) =>
-    fs.writeFile("README.md", init(data), (err) => {
-      console.log(err);
-    })
-  );
+  fs.writeFile("README.md", init(data), (err) => {
+    console.log(err);
+    console.log(data);
+    // generateMarkdown(data.license);
+  });
+};
 
+start();
 // TODO: Create a function to initialize app
 function init(data) {
   return `
-    # ${data.title}
-    
-    ## Description
-    ${data.description}
+  ## ${data.title}
+  
+  ## Description
+  ${data.description}
 
-    ## Purpose
-    ${data.purpose}
-    
+  ## Purpose
+  ${data.purpose}
+  
 
-    ## Installation
-    ${data.installation}
-    
-    ## Usage
-    ${data.usage}
-    ${data.instructions}
-    To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-       [three back ticks] md
-        ![alt text](assets/images/screenshot.png)
-        [three back ticks]
-    
-    ## Credits
-    ${data.github}
+  ## Installation
+  ${data.installation}
+  
+  ## Usage
+  ${data.usage}
+  To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+      [insert three back ticks] md
+      ![alt text](assets/images/screenshot.png)
+      [ insert three back ticks]
+  
+  ## Credits - Github and Email
+  ${data.github}
+  ${data.email}
 
-    ## License
-    [${data.license}] 2021`;
+  ## License
+  ${renderLicenseSection(data.license)}`;
 }
