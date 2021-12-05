@@ -1,31 +1,42 @@
-## README Generator
+# README Generator
 
 ## Description
 
-As a user I would like a simple and easy way to generate simple README.md files for my applications.
-
 ## Purpose
-
-This application can be used directly through terminal inputs!
 
 ## Installation
 
-1. Upon running the index file you will be prompted to answer questions that will directly populate your README.md file. 2. Answer the questions. 3. Review the generated readme and make any changes you like or save and commit your repo!
-
 ## Usage
 
-Follow the aforementioned steps to generate your readme. As an example, this README has been generated leveraging this new application.
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-[insert three back ticks] md
-![alt text](assets/images/screenshot.png)
-[ insert three back ticks]
+## Credits
 
-## Credits - Github and Email
+## License
+
+### Description
+
+As a user I would like a simple and easy way to generate simple README.md files for my applications.
+
+### Purpose
+
+This application can be used directly through terminal inputs!
+
+### Installation
+
+1. Upon running the index file you will be prompted to answer questions that will directly populate your README.md file.
+2. Answer the questions.
+3. Review the generated readme and make any changes you like or save and commit your repo!
+
+### Usage
+
+Follow the aforementioned steps to generate your readme. As an example, this README has been generated leveraging this new application.
+Here is a walkthrough video showcasing functionality. https://watch.screencastify.com/v/4Dl07C4JVmLcc7fxc2t0
+
+### Credits - Github and Email
 
 https://github.com/ricardougarcia/readme-generator.git
 ricardougarcia@gmail.com
 
-## License
+### License
 
 ![MIT](https://img.shields.io/badge/MIT_2021-license-yellow)
 

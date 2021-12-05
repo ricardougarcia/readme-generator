@@ -65,29 +65,36 @@ start();
 // TODO: Create a function to initialize app
 function init(data) {
   return `
-  ## ${data.title}
-  
+  # ${data.title}
+
   ## Description
+  ## Purpose
+  ## Installation
+  ## Usage
+  ## Credits
+  ## License
+
+  ### Description
   ${data.description}
 
-  ## Purpose
+  ### Purpose
   ${data.purpose}
   
 
-  ## Installation
+  ### Installation
   ${data.installation}
   
-  ## Usage
+  ### Usage
   ${data.usage}
   To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
       [insert three back ticks] md
       ![alt text](assets/images/screenshot.png)
       [ insert three back ticks]
   
-  ## Credits - Github and Email
+  ### Credits - Github and Email
   ${data.github}
   ${data.email}
 
-  ## License
+  ### License
   ${renderLicenseSection(data.license)}`;
 }
