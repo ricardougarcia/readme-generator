@@ -1,16 +1,6 @@
 # README Generator
 
-## Description
-
-## Purpose
-
-## Installation
-
-## Usage
-
-## Credits
-
-## License
+-[Description](#description) -[Purpose](#purpose) -[Installation](#installation) -[Usage](#usage) -[Credits](#credits) -[License](#license)
 
 ### Description
 
@@ -22,14 +12,11 @@ This application can be used directly through terminal inputs!
 
 ### Installation
 
-1. Upon running the index file you will be prompted to answer questions that will directly populate your README.md file.
-2. Answer the questions.
-3. Review the generated readme and make any changes you like or save and commit your repo!
+1. Upon running the index file you will be prompted to answer questions that will directly populate your README.md file. 2. Answer the questions. 3. Review the generated readme and make any changes you like or save and commit your repo!
 
 ### Usage
 
-Follow the aforementioned steps to generate your readme. As an example, this README has been generated leveraging this new application.
-Here is a walkthrough video showcasing functionality. https://watch.screencastify.com/v/4Dl07C4JVmLcc7fxc2t0
+Follow the aforementioned steps to generate your readme. As an example, this README has been generated leveraging this new application. A walkthrough video can be found here: https://watch.screencastify.com/v/4Dl07C4JVmLcc7fxc2t0
 
 ### Credits - Github and Email
 

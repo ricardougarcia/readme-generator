@@ -67,12 +67,12 @@ function init(data) {
   return `
   # ${data.title}
 
-  ## Description
-  ## Purpose
-  ## Installation
-  ## Usage
-  ## Credits
-  ## License
+  -[Description](#description)
+  -[Purpose](#purpose)
+  -[Installation](#installation)
+  -[Usage](#usage)
+  -[Credits](#credits)
+  -[License](#license)
 
   ### Description
   ${data.description}
